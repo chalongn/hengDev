@@ -10,5 +10,5 @@ button.addEventListener("click",()=>{
 
     const times = Math.abs(endtDate - startDate)
     const days = Math.round(times/(1000*60*60*24))
-    result.innerText=+days+" Days"+ " Apart"
+    result.innerText=+days+" Days "+ " Apart"
 })
